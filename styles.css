@@ -124,7 +124,7 @@ h6 {
 }
 
 .section-label {
-    display: inline-block;
+    display: block;
     padding: 8px 20px;
     background: rgba(102, 126, 234, 0.1);
     border: 1px solid rgba(102, 126, 234, 0.3);
@@ -135,6 +135,10 @@ h6 {
     letter-spacing: 1px;
     color: var(--purple-500);
     margin-bottom: 2rem;
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-title {

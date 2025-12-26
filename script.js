@@ -157,7 +157,7 @@ const priceObserver = new IntersectionObserver((entries) => {
         if (entry.isIntersecting && !entry.target.classList.contains('animated')) {
             entry.target.classList.add('animated');
             // Extract number from text content
-            const targetValue = 147;
+            const targetValue = 970;
             animateValue(entry.target, 0, targetValue, 1000);
             priceObserver.unobserve(entry.target);
         }
